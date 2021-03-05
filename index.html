@@ -1,1 +1,41 @@
-Documento de proba index html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>proba</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+    crossorigin=""></script>
+  
+</head>
+<body>
+
+            <h3>
+                Selecciona as fechas
+            </h3>
+            <form id="formFecha">   
+                <div>
+                    <label for="finicio">Fecha inicio:</label>
+                    <input id="finicio" type="date" name="finicio" required="">
+                    <input type="time" id="hinicio" name="hinicio" value="09:00" required="">
+                </div>     
+                
+                <div>
+                    <label for="ffin">Fecha fin:</label>
+                    <input id="ffin" type="date" name="ffin">
+                    <input type="time" id="hfin" name="hfin" value="10:00" required="">
+                </div>
+
+                
+                <input type="button" id="consultarTiempo" value="Consultar Tiempo"/>
+                
+                
+            </form>
+
+    
+</body>
+</html>
